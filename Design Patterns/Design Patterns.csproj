@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Design_Patterns.AbstractFactory.telBayiiMain</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\gm20Pro.cs" />
+    <Compile Include="AbstractFactory\gm20ProFactory.cs" />
+    <Compile Include="AbstractFactory\gm5Plus.cs" />
+    <Compile Include="AbstractFactory\gm5PlusFactory.cs" />
+    <Compile Include="AbstractFactory\telBayiiMain.cs" />
+    <Compile Include="AbstractFactory\Telefon.cs" />
+    <Compile Include="AbstractFactory\telFactory.cs" />
+    <Compile Include="Factory\gm20Pro.cs" />
+    <Compile Include="Factory\gm5Plus.cs" />
+    <Compile Include="Factory\telBayii.cs" />
+    <Compile Include="Factory\Telefon.cs" />
+    <Compile Include="Factory\telefonFabrikasi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton.cs" />

@@ -8,6 +8,7 @@ namespace Design_Patterns
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             for (int i = 0; i < 10; i++)
@@ -18,5 +19,6 @@ namespace Design_Patterns
 
             Console.ReadKey();
         }
+        
     }
 }
