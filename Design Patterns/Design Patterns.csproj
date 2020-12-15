@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Design_Patterns.AbstractFactory.telBayiiMain</StartupObject>
+    <StartupObject>Design_Patterns.Builder.EmlakciMain</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,9 @@
     <Compile Include="AbstractFactory\telBayiiMain.cs" />
     <Compile Include="AbstractFactory\Telefon.cs" />
     <Compile Include="AbstractFactory\telFactory.cs" />
+    <Compile Include="Builder\EmlakciMain.cs" />
+    <Compile Include="Builder\Ev.cs" />
+    <Compile Include="Builder\EvBuild.cs" />
     <Compile Include="Factory\gm20Pro.cs" />
     <Compile Include="Factory\gm5Plus.cs" />
     <Compile Include="Factory\telBayii.cs" />
