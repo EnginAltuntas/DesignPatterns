@@ -21,6 +21,12 @@ namespace Design_Patterns.Builder
                 .build();
             printEv(ev2);
 
+            Ev ev3 = EvBuild.NormalEvBuild("Trabzon", "Araklı", 4)
+                .setBinaYili(2020)
+                .build();
+
+            printEv(ev3);
+
             Console.ReadLine();
         }
         private static void printEv(Ev ev)
